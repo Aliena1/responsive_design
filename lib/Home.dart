@@ -19,9 +19,10 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: const ResponsiveLayout(
-        mobileBody: MobileBody(),
-        desktopApp: DesktopBody(),),
+      body: Center(child: const Text('Responsive Design',style: TextStyle(fontWeight: FontWeight.bold),)),
+      // body: const ResponsiveLayout(
+      //   mobileBody: MobileBody(),
+      //   desktopApp: DesktopBody(),),
       // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
